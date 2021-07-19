@@ -107,8 +107,6 @@ AUTH_USER_MODEL = 'users.User'
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
 LOGIN_REDIRECT_URL = '/'
 
-# Testing email
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 try:
     from local_settings import *
